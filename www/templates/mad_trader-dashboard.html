@@ -1,0 +1,28 @@
+	<ion-view view-title=" Dashboard" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-dashboard" class=" page-dashboard">
+		
+		<div class="dashboard-panel">
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light positive-bg ink"  ng-href="#/mad_trader/about_us" >
+					<i class="icon ion-android-contact" ></i>
+					<p>{{ "About Us" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light positive-900-bg ink" ng-click="openURL('market://details?id=com.imabuilder.madagency.madtrader')" >
+					<i class="icon ion-android-playstore" ></i>
+					<p>{{ "Rate This App" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
